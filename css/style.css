@@ -1,0 +1,25 @@
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.debug {
+  border: 1px solid black;
+}
+:root {
+  --primary-color: ;
+  --secondary-color: ;
+  --header-bg: ;
+  --bg-color: ;
+  --addictional: ;
+}
+/* Header */
+
+/* Main */
+
+/* Footer */
