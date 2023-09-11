@@ -11,15 +11,68 @@
 .debug {
   border: 1px solid black;
 }
+ul {
+  list-style: none;
+  font-size: large;
+}
 :root {
-  --primary-color: ;
-  --secondary-color: ;
-  --header-bg: ;
-  --bg-color: ;
-  --addictional: ;
+  --primary-color: #23272a;
+  --secondary-color: white;
+  --header-bg: #255ee9;
+  --bg-color: #f6f6f6;
+  --addictional: #7289da;
+}
+.d-flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+a {
+  padding: 10px 10px;
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+.button {
+  border-radius: 30px;
+  padding: 8px 16px;
+  font-weight: 600;
 }
 /* Header */
+nav {
+  color: var(--secondary-color);
+  background-color: var(--header-bg);
+  padding: 15px;
+}
+#jumbo {
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--secondary-color);
+}
+.jumbo {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.5em;
+  min-width: 350px;
+  min-height: 350px;
+  text-align: center;
+}
+h1 {
+  font-size: 40px;
+  padding: 30px 0;
+}
 
 /* Main */
 
 /* Footer */
+footer {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
