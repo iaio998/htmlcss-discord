@@ -49,7 +49,6 @@ nav {
   background-image: url(../img/jumbo.png);
   background-size: cover;
   background-repeat: no-repeat;
-  color: var(--secondary-color);
 }
 .jumbo {
   display: flex;
@@ -57,12 +56,14 @@ nav {
   justify-content: center;
   align-items: center;
   align-content: center;
-  max-width: 700px;
   margin: 0 auto;
-  line-height: 1.5em;
+  max-width: 700px;
+  line-height: 1.7em;
   min-width: 350px;
-  min-height: 350px;
+  min-height: 650px;
+  font-size: 20px;
   text-align: center;
+  color: var(--secondary-color);
 }
 h1 {
   font-size: 40px;
