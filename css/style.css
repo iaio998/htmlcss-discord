@@ -19,7 +19,7 @@ ul {
   --primary-color: #23272a;
   --secondary-color: white;
   --header-bg: #255ee9;
-  --bg-color: #f6f6f6;
+  --bg-color: grey;
   --addictional: #7289da;
 }
 .d-flex {
@@ -28,6 +28,15 @@ ul {
   justify-content: space-between;
   align-items: center;
   align-content: center;
+}
+.d-flex-column {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding: 40px 5px;
+  line-height: 2.3em;
 }
 a {
   padding: 10px 10px;
@@ -43,7 +52,7 @@ a {
 nav {
   color: var(--secondary-color);
   background-color: var(--header-bg);
-  padding: 15px;
+  padding: 30px;
 }
 #jumbo {
   background-image: url(../img/jumbo.png);
@@ -71,7 +80,9 @@ h1 {
 }
 
 /* Main */
-
+.even {
+  background-color: var(--bg-color);
+}
 /* Footer */
 footer {
   color: var(--secondary-color);
